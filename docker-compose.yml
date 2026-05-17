@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: travel-bot-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATABASE_URL=postgres://travelbot:travelbot_secret@db:5432/travelbot
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - DIALOG360_API_KEY=${DIALOG360_API_KEY}
+      - AI_PROVIDER=groq
+      - AGENCY_NAME=${AGENCY_NAME:-Travel Agency}
+      - AGENCY_AGENT_NUMBER=${AGENCY_AGENT_NUMBER}
+      - BUSINESS_HOURS_START=09:00
+      - BUSINESS_HOURS_END=18:00
+      - BUSINESS_TIMEZONE=Asia/Dubai
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  db:
+    image: postgres:15-alpine
+    container_name: travel-bot-db
+    environment:
+      - POSTGRES_USER=travelbot
+      - POSTGRES_PASSWORD=travelbot_secret
+      - POSTGRES_DB=travelbot
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql:ro
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U travelbot -d travelbot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  pgdata:
+    driver: local
