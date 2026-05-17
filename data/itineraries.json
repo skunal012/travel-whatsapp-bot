@@ -1,0 +1,469 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-17",
+  "description": "Mock itinerary data for travel packages",
+  "templates": [
+    {
+      "id": "it-001",
+      "name": "Dubai Classic 3-Day",
+      "destination": "Dubai, UAE",
+      "duration": 3,
+      "description": "Perfect introduction to Dubai covering iconic landmarks, shopping, and desert experiences.",
+      "basePrice": 450,
+      "currency": "USD",
+      "bestFor": ["First-time visitors", "Couples", "Solo travelers"],
+      "highlights": [
+        "Burj Khalifa observation deck",
+        "Desert Safari with BBQ dinner",
+        "Dubai Mall shopping time",
+        "Dhow cruise dinner in Dubai Creek"
+      ],
+      "includes": [
+        "3-star hotel accommodation (3 nights)",
+        "Daily breakfast",
+        "Airport transfers",
+        "City tour with guide",
+        "Desert safari with dinner"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival & City Orientation",
+          "description": "Arrive at Dubai International Airport. Transfer to hotel. Evening visit to Dubai Mall and Burj Khalifa observation deck.",
+          "activities": [
+            {
+              "time": "14:00",
+              "name": "Hotel Check-in",
+              "location": "Hotel in Deira/Bur Dubai",
+              "notes": "Early check-in subject to availability"
+            },
+            {
+              "time": "16:00",
+              "name": "Dubai Mall Visit",
+              "location": "Dubai Mall, Downtown",
+              "notes": "World's largest shopping mall with aquarium"
+            },
+            {
+              "time": "18:00",
+              "name": "Burj Khalifa - At The Top",
+              "location": "124th & 125th Floor",
+              "notes": "Sunset views over Dubai skyline"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Desert Safari & Cultural Exploration",
+          "description": "Morning at leisure. Afternoon desert safari with dune bashing, camel ride, and BBQ dinner under the stars.",
+          "activities": [
+            {
+              "time": "09:00",
+              "name": "Breakfast at Hotel",
+              "location": "Hotel restaurant",
+              "notes": "Full breakfast included"
+            },
+            {
+              "time": "11:00",
+              "name": "Free Time / Shopping",
+              "location": "Gold Souk or Spice Souk",
+              "notes": "Traditional markets experience"
+            },
+            {
+              "time": "15:00",
+              "name": "Desert Safari Pickup",
+              "location": "Hotel lobby",
+              "notes": "4x4 vehicle transport"
+            },
+            {
+              "time": "15:30-19:30",
+              "name": "Desert Adventure",
+              "location": "Dubai Desert Conservation Reserve",
+              "notes": "Dune bashing, sand boarding, camel ride"
+            },
+            {
+              "time": "19:30",
+              "name": "Bedouin Camp & BBQ Dinner",
+              "location": "Desert Camp",
+              "notes": "Cultural entertainment, henna, shisha"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Heritage & Modern Dubai",
+          "description": "Morning city tour visiting old Dubai, then leisure time. Evening dhow cruise dinner.",
+          "activities": [
+            {
+              "time": "08:30",
+              "name": "Breakfast & Checkout",
+              "location": "Hotel restaurant",
+              "notes": "Luggage storage available"
+            },
+            {
+              "time": "09:30",
+              "name": "Old Dubai City Tour",
+              "location": "Al Fahidi Fort, Dubai Museum, Abra ride",
+              "notes": "Walking tour through historic lanes"
+            },
+            {
+              "time": "12:00",
+              "name": "Lunch at Local Restaurant",
+              "location": "Al Seef area",
+              "notes": "Traditional Emirati cuisine (optional)"
+            },
+            {
+              "time": "14:00",
+              "name": "Free Time",
+              "location": "JBR Beach or Marina Walk",
+              "notes": "Beach activities or relaxation"
+            },
+            {
+              "time": "19:30",
+              "name": "Dhow Cruise Dinner",
+              "location": "Dubai Creek",
+              "notes": "Buffet dinner with city lights views"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-002",
+      "name": "Dubai Premium 5-Day",
+      "destination": "Dubai & Abu Dhabi, UAE",
+      "duration": 5,
+      "description": "Comprehensive Dubai experience including Abu Dhabi tour, luxury dining, and premium experiences.",
+      "basePrice": 950,
+      "currency": "USD",
+      "bestFor": ["Honeymoon couples", "Luxury travelers", "Anniversary celebrations"],
+      "highlights": [
+        "Burj Khalifa At The Top Sky (148th floor)",
+        "Abu Dhabi Grand Mosque tour",
+        "Ferrari World visit",
+        "Luxury yacht dinner cruise",
+        "VIP Desert Safari"
+      ],
+      "includes": [
+        "5-star hotel accommodation (4 nights)",
+        "Daily breakfast",
+        "Airport transfers (VIP service)",
+        "Full day Abu Dhabi tour",
+        "Premium desert safari",
+        "Yacht dinner cruise"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival & Luxury Welcome",
+          "description": "VIP airport arrival with private transfer to 5-star hotel. Evening at leisure with welcome amenities.",
+          "activities": [
+            {
+              "time": "Flexible",
+              "name": "VIP Airport Transfer",
+              "location": "Dubai International Airport",
+              "notes": "Meet & greet with private car"
+            },
+            {
+              "time": "15:00",
+              "name": "Hotel Check-in",
+              "location": "Burj Al Arab / Atlantis / Address Hotel",
+              "notes": "5-star luxury property"
+            },
+            {
+              "time": "18:00",
+              "name": "Free Evening",
+              "location": "Hotel facilities or nearby",
+              "notes": "Spa, beach, or fine dining options"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Burj Khalifa & Downtown Dubai",
+          "description": "Morning at leisure. Afternoon visit to Burj Khalifa Sky at 148th floor. Evening dinner at Atmosphere restaurant.",
+          "activities": [
+            {
+              "time": "10:00",
+              "name": "Leisure Time",
+              "location": "Hotel beach/pool",
+              "notes": "Premium amenities access"
+            },
+            {
+              "time": "15:00",
+              "name": "Burj Khalifa - Sky Level",
+              "location": "148th Floor Observation Deck",
+              "notes": "VIP access with refreshments"
+            },
+            {
+              "time": "19:00",
+              "name": "Dinner at Atmosphere",
+              "location": "Burj Khalifa, 122nd Floor",
+              "notes": "Fine dining with panoramic views"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Abu Dhabi Grand Tour",
+          "description": "Full day tour of Abu Dhabi including Sheikh Zayed Grand Mosque, Emirates Palace, and Ferrari World.",
+          "activities": [
+            {
+              "time": "08:30",
+              "name": "Departure from Hotel",
+              "location": "Hotel lobby",
+              "notes": "Private vehicle with driver/guide"
+            },
+            {
+              "time": "10:00",
+              "name": "Sheikh Zayed Grand Mosque",
+              "location": "Abu Dhabi",
+              "notes": "Guided tour of architectural marvel"
+            },
+            {
+              "time": "12:30",
+              "name": "Emirates PalaceVisit",
+              "location": "Abu Dhabi Corniche",
+              "notes": "Photo stop at iconic landmark"
+            },
+            {
+              "time": "14:00",
+              "name": "Ferrari World",
+              "location": "Yas Island",
+              "notes": "Formula Rossa roller coaster"
+            },
+            {
+              "time": "19:00",
+              "name": "Return to Dubai",
+              "location": "Hotel",
+              "notes": "Evening leisure"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Desert Experience & Yacht Cruise",
+          "description": "Morning free. Afternoon premium desert safari. Evening luxury yacht dinner cruise.",
+          "activities": [
+            {
+              "time": "10:00",
+              "name": "Free Morning",
+              "location": "Hotel or optional spa",
+              "notes": "Leisure and relaxation"
+            },
+            {
+              "time": "15:00",
+              "name": "Premium Desert Safari",
+              "location": "Dubai Desert",
+              "notes": "Private 4x4, personal guide, VIP camp"
+            },
+            {
+              "time": "20:00",
+              "name": "Yacht Dinner Cruise",
+              "location": "Dubai Marina",
+              "notes": "2-hour cruise with gourmet dinner"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Cultural Dubai & Departure",
+          "description": "Morning heritage tour of Old Dubai. Leisure time before airport transfer.",
+          "activities": [
+            {
+              "time": "09:00",
+              "name": "Breakfast",
+              "location": "Hotel restaurant",
+              "notes": "Full breakfast"
+            },
+            {
+              "time": "10:00",
+              "name": "Old Dubai Walking Tour",
+              "location": "Al Fahidi Historical Area",
+              "notes": "Museum, souks, abra ride"
+            },
+            {
+              "time": "13:00",
+              "name": "Lunch at Al Seef",
+              "location": "Al Seef Heritage District",
+              "notes": "Traditional Emirati cuisine"
+            },
+            {
+              "time": "15:00",
+              "name": "Return to Hotel & Checkout",
+              "location": "Hotel",
+              "notes": "Prepare for departure"
+            },
+            {
+              "time": "18:00",
+              "name": "Airport Transfer",
+              "location": "Dubai International Airport",
+              "notes": "VIP departure service"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-003",
+      "name": "Doha Discovery 4-Day",
+      "destination": "Doha, Qatar",
+      "duration": 4,
+      "description": "Explore Qatar's capital with its stunning museums, traditional souks, and modern architecture.",
+      "basePrice": 680,
+      "currency": "USD",
+      "bestFor": ["Culture enthusiasts", "Art & architecture lovers", "First-time Qatar visitors"],
+      "highlights": [
+        "National Museum of Qatar",
+        "Katara Cultural Village",
+        "Souq Waqif evening visit",
+        "The Pearl Qatar",
+        "Inland Sea desert experience"
+      ],
+      "includes": [
+        "4-star hotel accommodation (3 nights)",
+        "Daily breakfast",
+        "Airport transfers",
+        "Full day city tour with guide",
+        "Inland Sea desert excursion"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival & Corniche Evening",
+          "description": "Arrive at Hamad International Airport. Transfer to hotel. Evening walk along the Corniche with views of the skyline.",
+          "activities": [
+            {
+              "time": "15:00",
+              "name": "Hotel Check-in",
+              "location": "Marsa Malaz / W Doha / Marriott",
+              "notes": "Central location preferred"
+            },
+            {
+              "time": "17:00",
+              "name": "Corniche Walk",
+              "location": "Doha Corniche",
+              "notes": "7km waterfront promenade"
+            },
+            {
+              "time": "19:30",
+              "name": "Dinner at Souq Waqif",
+              "location": "Souq Waqif",
+              "notes": "Traditional Qatari dining"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Museums & Cultural Heritage",
+          "description": "Morning at National Museum of Qatar. Afternoon at Katara Cultural Village. Evening at The Pearl Qatar.",
+          "activities": [
+            {
+              "time": "09:30",
+              "name": "National Museum of Qatar",
+              "location": "Doha",
+              "notes": "Jean Nouvel's stunning architecture + exhibits"
+            },
+            {
+              "time": "12:30",
+              "name": "Lunch at Museum Cafe",
+              "location": "Museum grounds",
+              "notes": "Light refreshments included"
+            },
+            {
+              "time": "14:30",
+              "name": "Katara Cultural Village",
+              "location": "Katara",
+              "notes": "Amphitheater, galleries, restaurants"
+            },
+            {
+              "time": "18:00",
+              "name": "The Pearl Qatar",
+              "location": "The Pearl",
+              "notes": "Mediterranean-style luxury development"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Inland Sea Desert Adventure",
+          "description": "Full day desert excursion to Inland Sea (Khor Al Adaid) - UNESCO recognized natural reserve.",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Desert Excursion Departure",
+              "location": "Hotel lobby",
+              "notes": "4x4 vehicle with driver/guide"
+            },
+            {
+              "time": "10:00",
+              "name": "Sealine Beach Area",
+              "location": "Sealine",
+              "notes": "Photo stop, refreshments"
+            },
+            {
+              "time": "11:30",
+              "name": "Off-road Desert Driving",
+              "location": "Dune bashing area",
+              "notes": "Thrilling drive to Inland Sea"
+            },
+            {
+              "time": "13:00",
+              "name": "Inland Sea Arrival",
+              "location": "Khor Al Adaid",
+              "notes": "Swimming in desert lake, photo opportunities"
+            },
+            {
+              "time": "15:30",
+              "name": "Traditional Lunch",
+              "location": "Desert camp",
+              "notes": "BBQ lunch with bedouin hospitality"
+            },
+            {
+              "time": "17:00",
+              "name": "Return Journey",
+              "location": "Doha",
+              "notes": "Return to hotel by 18:30"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Islamic Art Museum & Departure",
+          "description": "Morning visit to Museum of Islamic Art. Souq Waqif shopping. Afternoon departure.",
+          "activities": [
+            {
+              "time": "09:00",
+              "name": "Breakfast & Checkout",
+              "location": "Hotel restaurant",
+              "notes": "Luggage storage available"
+            },
+            {
+              "time": "10:00",
+              "name": "Museum of Islamic Art",
+              "location": "Doha Corniche",
+              "notes": "I.M. Pei's architectural masterpiece"
+            },
+            {
+              "time": "12:00",
+              "name": "Souq Waqif Shopping",
+              "location": "Souq Waqif",
+              "notes": "Spices, textiles, gold, antiques"
+            },
+            {
+              "time": "14:00",
+              "name": "Lunch at Souq",
+              "location": "Traditional restaurant",
+              "notes": "Last Qatari cuisine experience"
+            },
+            {
+              "time": "16:00",
+              "name": "Airport Transfer",
+              "location": "Hamad International Airport",
+              "notes": "Departure flight"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

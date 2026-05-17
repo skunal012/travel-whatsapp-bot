@@ -1,0 +1,466 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-17",
+  "description": "Mock visa data for travel to GCC and popular destinations",
+  "visaTypes": [
+    {
+      "code": "TOURIST",
+      "name": "Tourist Visa",
+      "description": "For leisure travel and tourism purposes"
+    },
+    {
+      "code": "BUSINESS",
+      "name": "Business Visa",
+      "description": "For business meetings, conferences, and trade activities"
+    },
+    {
+      "code": "TRANSIT",
+      "name": "Transit Visa",
+      "description": "For short stops during international travel"
+    },
+    {
+      "code": "ONARRIVAL",
+      "name": "Visa on Arrival",
+      "description": "Available at immigration for eligible nationalities"
+    },
+    {
+      "code": "E_VISA",
+      "name": "E-Visa / Online Visa",
+      "description": "Application submitted online before travel"
+    }
+  ],
+  "packages": [
+    {
+      "id": "visa-001",
+      "visaType": "TOURIST",
+      "visaTypeName": "Tourist Visa",
+      "destinationCountry": "UAE",
+      "destinationName": "United Arab Emirates",
+      "nationality": "India",
+      "processingDays": 3,
+      "validityDays": 30,
+      "maxStayDays": 30,
+      "fee": 350,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs (white background)",
+        "Confirmed return ticket",
+        "Hotel booking confirmation",
+        "Proof of sufficient funds",
+        "Travel insurance (recommended)"
+      ],
+      "description": "30-day tourist visa for UAE, extendable once for 30 days",
+      "entryType": "Single",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-002",
+      "visaType": "TOURIST",
+      "visaTypeName": "Tourist Visa",
+      "destinationCountry": "UAE",
+      "destinationName": "United Arab Emirates",
+      "nationality": "India",
+      "processingDays": 1,
+      "validityDays": 14,
+      "maxStayDays": 14,
+      "fee": 450,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs (white background)",
+        "Confirmed return ticket",
+        "Hotel booking confirmation",
+        "Proof of sufficient funds"
+      ],
+      "description": "14-day express tourist visa for urgent travel",
+      "entryType": "Single",
+      "processingType": "Express"
+    },
+    {
+      "id": "visa-003",
+      "visaType": "TOURIST",
+      "visaTypeName": "Tourist Visa",
+      "destinationCountry": "UAE",
+      "destinationName": "United Arab Emirates",
+      "nationality": "India",
+      "processingDays": 5,
+      "validityDays": 60,
+      "maxStayDays": 60,
+      "fee": 650,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs (white background)",
+        "Confirmed return ticket",
+        "Hotel booking confirmation",
+        "Proof of sufficient funds",
+        "Travel insurance"
+      ],
+      "description": "60-day long-stay tourist visa for extended visits",
+      "entryType": "Single",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-004",
+      "visaType": "BUSINESS",
+      "visaTypeName": "Business Visa",
+      "destinationCountry": "UAE",
+      "destinationName": "United Arab Emirates",
+      "nationality": "India",
+      "processingDays": 3,
+      "validityDays": 30,
+      "maxStayDays": 30,
+      "fee": 500,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs (white background)",
+        "Invitation letter from UAE company",
+        "Proof of business activities",
+        "Hotel booking or sponsor details",
+        "Proof of sufficient funds"
+      ],
+      "description": "30-day business visa for corporate travelers",
+      "entryType": "Single",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-005",
+      "visaType": "TOURIST",
+      "visaTypeName": "Tourist Visa",
+      "destinationCountry": "Qatar",
+      "destinationName": "Qatar",
+      "nationality": "India",
+      "processingDays": 2,
+      "validityDays": 30,
+      "maxStayDays": 30,
+      "fee": 280,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Confirmed return ticket",
+        "Hotel booking confirmation",
+        "Proof of sufficient funds",
+        "Travel insurance"
+      ],
+      "description": "30-day tourist visa for Qatar with Hayya card assistance",
+      "entryType": "Single",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-006",
+      "visaType": "TOURIST",
+      "visaTypeName": "Tourist Visa",
+      "destinationCountry": "Qatar",
+      "destinationName": "Qatar",
+      "nationality": "India",
+      "processingDays": 1,
+      "validityDays": 30,
+      "maxStayDays": 30,
+      "fee": 380,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Confirmed return ticket",
+        "Hotel booking confirmation",
+        "Proof of sufficient funds"
+      ],
+      "description": "Express tourist visa for Qatar with priority processing",
+      "entryType": "Single",
+      "processingType": "Express"
+    },
+    {
+      "id": "visa-007",
+      "visaType": "E_VISA",
+      "visaTypeName": "E-Visa",
+      "destinationCountry": "AUS",
+      "destinationName": "Australia",
+      "nationality": "India",
+      "processingDays": 7,
+      "validityDays": 365,
+      "maxStayDays": 90,
+      "fee": 1150,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Completed visa application",
+        "Proof of funds (AUD 10,000+)",
+        "Bank statements (last 3 months)",
+        "Employment letter",
+        "Travel insurance",
+        "Return ticket",
+        "Hotel booking",
+        "Police clearance certificate",
+        "Health insurance"
+      ],
+      "description": "Subclass 600 Tourist Visa (Online) - for tourism and family visits",
+      "entryType": "Single/Multiple",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-008",
+      "visaType": "TOURIST",
+      "visaTypeName": "Tourist Visa",
+      "destinationCountry": "UK",
+      "destinationName": "United Kingdom",
+      "nationality": "India",
+      "processingDays": 15,
+      "validityDays": 180,
+      "maxStayDays": 90,
+      "fee": 1350,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Completed visa application (online)",
+        "Bank statements (last 6 months)",
+        "Employment letter with salary details",
+        "Travel itinerary",
+        "Hotel booking confirmations",
+        "Travel insurance",
+        "Previous travel history (if any)",
+        "Proof of ties to home country"
+      ],
+      "description": "Standard Visitor Visa for tourism, family visits, and short business trips",
+      "entryType": "Single/Multiple",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-009",
+      "visaType": "TOURIST",
+      "visaTypeName": "Tourist Visa",
+      "destinationCountry": "USA",
+      "destinationName": "United States",
+      "nationality": "India",
+      "processingDays": 30,
+      "validityDays": 365,
+      "maxStayDays": 90,
+      "fee": 1850,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "DS-160 confirmation",
+        "Passport-size photographs (digital)",
+        "Proof of funds",
+        "Bank statements (last 12 months)",
+        "Employment letter",
+        "Pay slips (last 3 months)",
+        "ITR (Income Tax Returns)",
+        "Travel itinerary",
+        "Hotel bookings",
+        "Previous visa copies (if any)",
+        "Social media profiles",
+        "Interview appointment confirmation"
+      ],
+      "description": "B1/B2 Tourist/Business Visa for short-term visits",
+      "entryType": "Multiple",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-010",
+      "visaType": "TOURIST",
+      "visaTypeName": "E-Visa",
+      "destinationCountry": "SGP",
+      "destinationName": "Singapore",
+      "nationality": "India",
+      "processingDays": 1,
+      "validityDays": 30,
+      "maxStayDays": 30,
+      "fee": 450,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Confirmed return ticket",
+        "Hotel booking confirmation",
+        "Proof of sufficient funds"
+      ],
+      "description": "Singapore ETA (Electronic Travel Authorization) for Indian nationals",
+      "entryType": "Single",
+      "processingType": "Express"
+    },
+    {
+      "id": "visa-011",
+      "visaType": "TOURIST",
+      "visaTypeName": "E-Visa",
+      "destinationCountry": "THA",
+      "destinationName": "Thailand",
+      "nationality": "India",
+      "processingDays": 2,
+      "validityDays": 60,
+      "maxStayDays": 60,
+      "fee": 320,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Confirmed return ticket",
+        "Hotel booking confirmation",
+        "Proof of sufficient funds (THB 20,000+)",
+        "Bank statement"
+      ],
+      "description": "Thailand Tourist Visa with 60-day stay permit",
+      "entryType": "Single",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-012",
+      "visaType": "TOURIST",
+      "visaTypeName": "Tourist Visa",
+      "destinationCountry": "MAL",
+      "destinationName": "Malaysia",
+      "nationality": "India",
+      "processingDays": 3,
+      "validityDays": 30,
+      "maxStayDays": 30,
+      "fee": 280,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Confirmed return ticket",
+        "Hotel booking confirmation",
+        "Proof of sufficient funds",
+        "Travel insurance"
+      ],
+      "description": "Malaysia Tourist Visa for Indian nationals",
+      "entryType": "Single",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-013",
+      "visaType": "ONARRIVAL",
+      "visaTypeName": "Visa on Arrival",
+      "destinationCountry": "Maldives",
+      "destinationName": "Maldives",
+      "nationality": "India",
+      "processingDays": 0,
+      "validityDays": 30,
+      "maxStayDays": 30,
+      "fee": 25,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Confirmed hotel booking",
+        "Return ticket",
+        "Sufficient funds for stay"
+      ],
+      "description": "Free visa on arrival for Indian nationals - 30 days extendable",
+      "entryType": "Single",
+      "processingType": "On Arrival"
+    },
+    {
+      "id": "visa-014",
+      "visaType": "TRANSIT",
+      "visaTypeName": "Transit Visa",
+      "destinationCountry": "UAE",
+      "destinationName": "United Arab Emirates",
+      "nationality": "India",
+      "processingDays": 2,
+      "validityDays": 96,
+      "maxStayDays": 4,
+      "fee": 150,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Confirmed onward ticket",
+        "Visa for next destination"
+      ],
+      "description": "96-hour transit visa for UAE - ideal for long layovers",
+      "entryType": "Single",
+      "processingType": "Normal"
+    },
+    {
+      "id": "visa-015",
+      "visaType": "BUSINESS",
+      "visaTypeName": "Business Visa",
+      "destinationCountry": "SAU",
+      "destinationName": "Saudi Arabia",
+      "nationality": "India",
+      "processingDays": 5,
+      "validityDays": 90,
+      "maxStayDays": 90,
+      "fee": 480,
+      "currency": "USD",
+      "requirements": [
+        "Valid passport (minimum 6 months validity)",
+        "Passport-size photographs",
+        "Invitation letter from Saudi company",
+        "Commercial registration of Saudi company",
+        "Proof of business relationship",
+        "Hotel booking",
+        "Travel insurance",
+        " Vaccination certificate ( meningococcal)"
+      ],
+      "description": "90-day business visa for Saudi Arabia - work visa available separately",
+      "entryType": "Single",
+      "processingType": "Normal"
+    }
+  ],
+  "documentChecklists": {
+    "UAE": {
+      "tourist": {
+        "required": [
+          "Valid passport (6+ months validity)",
+          "Passport photos (white background)",
+          "Return flight ticket",
+          "Hotel booking confirmation"
+        ],
+        "recommended": [
+          "Travel insurance",
+          "Proof of funds",
+          "Travel itinerary"
+        ]
+      },
+      "business": {
+        "required": [
+          "Valid passport (6+ months validity)",
+          "Passport photos",
+          "Invitation letter from UAE company",
+          "Company registration documents",
+          "Return flight ticket"
+        ],
+        "recommended": [
+          "Travel insurance",
+          "Proof of funds",
+          "Business cards"
+        ]
+      }
+    },
+    "Qatar": {
+      "tourist": {
+        "required": [
+          "Valid passport (6+ months validity)",
+          "Passport photos",
+          "Return flight ticket",
+          "Hotel booking confirmation"
+        ],
+        "recommended": [
+          "Travel insurance",
+          "Proof of funds",
+          "Hayya card application (for GCC residents)"
+        ]
+      }
+    },
+    "Thailand": {
+      "tourist": {
+        "required": [
+          "Valid passport (6+ months validity)",
+          "Passport photos",
+          "Return flight ticket",
+          "Hotel booking confirmation",
+          "Proof of funds (20,000 THB or equivalent)"
+        ],
+        "recommended": [
+          "Travel insurance",
+          "Vaccination certificates (if required)"
+        ]
+      }
+    }
+  }
+}
