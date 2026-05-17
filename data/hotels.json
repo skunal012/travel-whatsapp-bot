@@ -1,0 +1,491 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-17",
+  "description": "Mock hotel data for key travel destinations in GCC and India",
+  "cities": [
+    {
+      "name": "Dubai",
+      "country": "UAE",
+      "code": "DXB",
+      "airport": "Dubai International Airport",
+      "currency": "USD",
+      "language": "English/Arabic"
+    },
+    {
+      "name": "Doha",
+      "country": "Qatar",
+      "code": "DOH",
+      "airport": "Hamad International Airport",
+      "currency": "USD",
+      "language": "English/Arabic"
+    },
+    {
+      "name": "Abu Dhabi",
+      "country": "UAE",
+      "code": "AUH",
+      "airport": "Abu Dhabi International Airport",
+      "currency": "USD",
+      "language": "English/Arabic"
+    },
+    {
+      "name": "Mumbai",
+      "country": "India",
+      "code": "BOM",
+      "airport": "Chhatrapati Shivaji International Airport",
+      "currency": "USD",
+      "language": "English/Hindi"
+    },
+    {
+      "name": "Delhi",
+      "country": "India",
+      "code": "DEL",
+      "airport": "Indira Gandhi International Airport",
+      "currency": "USD",
+      "language": "English/Hindi"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "ht-001",
+      "name": "Burj Al Arab Jumeirah",
+      "starRating": 5,
+      "location": "Jumeirah Beach Road",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 1200,
+      "currency": "USD",
+      "description": "Iconic sail-shaped hotel offering world-class luxury with butler service, private beach, and signature restaurants.",
+      "amenities": [
+        "Private Beach",
+        "Infinity Pool",
+        "Butler Service",
+        "Spa & Wellness",
+        "Helipad",
+        "9 Restaurants",
+        "Gym & Fitness Center",
+        "Water Sports",
+        "Concierge",
+        "Airport Transfer"
+      ],
+      "roomTypes": [
+        "Deluxe Suite",
+        "Ocean Suite",
+        "Panoramic Suite",
+        "Royal Suite"
+      ],
+      "checkInTime": "15:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["burj-al-arab-exterior.jpg", "burj-al-arab-suite.jpg"]
+    },
+    {
+      "id": "ht-002",
+      "name": "Atlantis The Palm",
+      "starRating": 5,
+      "location": "Palm Jumeirah",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 650,
+      "currency": "USD",
+      "description": "Family-friendly resort on Palm Jumeirah with Aquaventure Waterpark, marine experiences, and diverse dining.",
+      "amenities": [
+        "Aquaventure Waterpark",
+        "Private Beach",
+        "Aquarium Access",
+        "Kids Club",
+        "12 Restaurants",
+        "Spa & Wellness",
+        "Gym & Fitness Center",
+        "Tennis Courts",
+        "Concierge",
+        "Airport Transfer"
+      ],
+      "roomTypes": [
+        "Deluxe Room",
+        "Ocean Room",
+        "Club Room",
+        "Family Suite"
+      ],
+      "checkInTime": "15:00",
+      "checkOutTime": "11:00",
+      "cancellationPolicy": "Free cancellation up to 48 hours before check-in",
+      "images": ["atlantis-palm-exterior.jpg", "atlantis-aquaventure.jpg"]
+    },
+    {
+      "id": "ht-003",
+      "name": "Raffles The Palm Dubai",
+      "starRating": 5,
+      "location": "Palm Jumeirah",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 520,
+      "currency": "USD",
+      "description": "Elegant resort offering all-suite accommodation with panoramic views of the Arabian Gulf and personalized service.",
+      "amenities": [
+        "Private Beach",
+        "Multiple Pools",
+        "Raffles Spa",
+        "Butler Service",
+        "6 Restaurants",
+        "Kids Club",
+        "Gym & Fitness Center",
+        "Tennis Courts",
+        "Concierge",
+        "Airport Transfer"
+      ],
+      "roomTypes": [
+        "Landmark Room",
+        "Prestige Suite",
+        "Penthouse Suite"
+      ],
+      "checkInTime": "15:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["raffles-palm-exterior.jpg", "raffles-suite.jpg"]
+    },
+    {
+      "id": "ht-004",
+      "name": "Grand Hyatt Dubai",
+      "starRating": 5,
+      "location": "Sheikh Rashid Road",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 280,
+      "currency": "USD",
+      "description": "Sprawling luxury hotel near Dubai Creek with extensive gardens, multiple dining options, and comprehensive leisure facilities.",
+      "amenities": [
+        "Outdoor Pools",
+        "Spa & Wellness",
+        "Gym & Fitness Center",
+        "Tennis Courts",
+        "Multiple Restaurants",
+        "Business Center",
+        "Kids Club",
+        "Concierge",
+        "Airport Transfer"
+      ],
+      "roomTypes": [
+        "Standard Room",
+        "Club Room",
+        "Grand Suite"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["grand-hyatt-dubai-exterior.jpg", "grand-hyatt-pool.jpg"]
+    },
+    {
+      "id": "ht-005",
+      "name": "Hyatt Regency Dubai",
+      "starRating": 4,
+      "location": "Deira",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 180,
+      "currency": "USD",
+      "description": "Modern hotel in historic Deira district offering views of Dubai Creek and easy access to gold and spice markets.",
+      "amenities": [
+        "Rooftop Pool",
+        "Fitness Center",
+        "3 Restaurants",
+        "Business Center",
+        "Concierge",
+        "Airport Shuttle"
+      ],
+      "roomTypes": [
+        "King Room",
+        "Twin Room",
+        "Regency Club Room"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["hyatt-regency-dubai.jpg"]
+    },
+    {
+      "id": "ht-006",
+      "name": "Citymax Hotel Al Barsha",
+      "starRating": 3,
+      "location": "Al Barsha",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 95,
+      "currency": "USD",
+      "description": "Budget-friendly hotel near Mall of the Emirates with comfortable rooms and excellent connectivity to major attractions.",
+      "amenities": [
+        "Rooftop Pool",
+        "Fitness Center",
+        "Restaurants",
+        "Free WiFi",
+        "Airport Shuttle"
+      ],
+      "roomTypes": [
+        "Standard Room",
+        "Superior Room"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Non-refundable",
+      "images": ["citymax-barsha.jpg"]
+    },
+    {
+      "id": "ht-007",
+      "name": "Kempinski Hotel & Conference Centre Doha",
+      "starRating": 5,
+      "location": "Diplomatic Area",
+      "city": "Doha",
+      "country": "Qatar",
+      "nightlyRate": 420,
+      "currency": "USD",
+      "description": "Luxury hotel in the heart of Doha's diplomatic area with extensive conference facilities and fine dining options.",
+      "amenities": [
+        "Outdoor Pool",
+        "Spa & Wellness",
+        "Gym & Fitness Center",
+        "Multiple Restaurants",
+        "Business Center",
+        "Concierge",
+        "Airport Transfer"
+      ],
+      "roomTypes": [
+        "Classic Room",
+        "Executive Room",
+        "Diplomatic Suite"
+      ],
+      "checkInTime": "15:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 48 hours before check-in",
+      "images": ["kempinski-doha.jpg"]
+    },
+    {
+      "id": "ht-008",
+      "name": "Marsa Malaz Kempinski",
+      "starRating": 5,
+      "location": "The Pearl Qatar",
+      "city": "Doha",
+      "country": "Qatar",
+      "nightlyRate": 550,
+      "currency": "USD",
+      "description": "Beachfront resort on The Pearl-Qatar with European-style architecture, private beach, and world-class amenities.",
+      "amenities": [
+        "Private Beach",
+        "Multiple Pools",
+        "Spa & Wellness",
+        "Butler Service",
+        "10 Restaurants",
+        "Water Sports",
+        "Kids Club",
+        "Concierge"
+      ],
+      "roomTypes": [
+        "Deluxe Room",
+        "Premium Room",
+        "Suite",
+        "Royal Suite"
+      ],
+      "checkInTime": "15:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["marsa-malaz.jpg"]
+    },
+    {
+      "id": "ht-009",
+      "name": "DoubleTree by Hilton Doha",
+      "starRating": 4,
+      "location": "Al Messeed Street",
+      "city": "Doha",
+      "country": "Qatar",
+      "nightlyRate": 195,
+      "currency": "USD",
+      "description": "Modern hotel with comfortable rooms, excellent service, and central location near key business districts.",
+      "amenities": [
+        "Rooftop Pool",
+        "Fitness Center",
+        "Spa",
+        "Multiple Restaurants",
+        "Business Center",
+        "Concierge"
+      ],
+      "roomTypes": [
+        "Guest Room",
+        "Twin Room",
+        "Executive Room"
+      ],
+      "checkInTime": "15:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["doubletree-doha.jpg"]
+    },
+    {
+      "id": "ht-010",
+      "name": "JW Marriott Hotel Mumbai",
+      "starRating": 5,
+      "location": "Juhu Beach",
+      "city": "Mumbai",
+      "country": "India",
+      "nightlyRate": 320,
+      "currency": "USD",
+      "description": "Beachfront luxury hotel at Juhu Beach with stunning Arabian Sea views and proximity to entertainment hubs.",
+      "amenities": [
+        "Private Beach",
+        "Outdoor Pool",
+        "Spa & Wellness",
+        "Gym & Fitness Center",
+        "Multiple Restaurants",
+        "Kids Club",
+        "Concierge"
+      ],
+      "roomTypes": [
+        "Deluxe Room",
+        "Club Room",
+        "Suite"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["jw-marriott-mumbai.jpg"]
+    },
+    {
+      "id": "ht-011",
+      "name": "The Taj Mahal Palace Mumbai",
+      "starRating": 5,
+      "location": "Apollo Bunder",
+      "city": "Mumbai",
+      "country": "India",
+      "nightlyRate": 580,
+      "currency": "USD",
+      "description": "Iconic heritage hotel overlooking the Arabian Sea and Gateway of India, offering legendary hospitality since 1903.",
+      "amenities": [
+        "Sea-View Pool",
+        "Taj Spa",
+        "Multiple Restaurants",
+        "Fitness Center",
+        "Concierge",
+        "Heritage Tours",
+        "Airport Transfer"
+      ],
+      "roomTypes": [
+        "City View Room",
+        "Sea View Room",
+        "Suite",
+        "Taj Club Room"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["taj-mahal-palace.jpg"]
+    },
+    {
+      "id": "ht-012",
+      "name": "Trident Hotel Mumbai",
+      "starRating": 5,
+      "location": "Cuffe Parade",
+      "city": "Mumbai",
+      "country": "India",
+      "nightlyRate": 245,
+      "currency": "USD",
+      "description": "Contemporary luxury hotel near South Mumbai business district with excellent service and facilities.",
+      "amenities": [
+        "Swimming Pool",
+        "Fitness Center",
+        "Spa",
+        "Restaurants",
+        "Business Center",
+        "Concierge"
+      ],
+      "roomTypes": [
+        "Superior Room",
+        "Deluxe Room",
+        "Executive Suite"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["trident-mumbai.jpg"]
+    },
+    {
+      "id": "ht-013",
+      "name": "Rose Rayhaan by Rotana",
+      "starRating": 4,
+      "location": "Sheikh Zayed Road",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 220,
+      "currency": "USD",
+      "description": "Sophisticated hotel in the financial district with panoramic views of the Dubai skyline from the world's tallest residential building.",
+      "amenities": [
+        "Rooftop Pool",
+        "Fitness Center",
+        "Spa",
+        "Restaurants",
+        "Business Center",
+        "Concierge"
+      ],
+      "roomTypes": [
+        "Classic Room",
+        "Premium Room",
+        "One Bedroom Suite"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["rose-rayhaan.jpg"]
+    },
+    {
+      "id": "ht-014",
+      "name": "Shangri-La Hotel Dubai",
+      "starRating": 5,
+      "location": "Sheikh Zayed Road",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 380,
+      "currency": "USD",
+      "description": "Luxury hotel offering exceptional service and stunning views of the Dubai skyline, with a signatureCHI Spa.",
+      "amenities": [
+        "Rooftop Pool",
+        "CHI Spa",
+        "Gym & Fitness Center",
+        "Multiple Restaurants",
+        "Business Center",
+        "Concierge",
+        "Airport Transfer"
+      ],
+      "roomTypes": [
+        "Deluxe Room",
+        "Premier Room",
+        "Horizon Club Room",
+        "Suite"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 48 hours before check-in",
+      "images": ["shangri-la-dubai.jpg"]
+    },
+    {
+      "id": "ht-015",
+      "name": "Four Points by Sheraton Downtown Dubai",
+      "starRating": 4,
+      "location": "Bur Dubai",
+      "city": "Dubai",
+      "country": "UAE",
+      "nightlyRate": 145,
+      "currency": "USD",
+      "description": "Comfortable mid-range hotel in Bur Dubai with easy access to museums, markets, and business districts.",
+      "amenities": [
+        "Swimming Pool",
+        "Fitness Center",
+        "Restaurant",
+        "Free WiFi",
+        "Business Center"
+      ],
+      "roomTypes": [
+        "Standard Room",
+        "Superior Room"
+      ],
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in",
+      "images": ["four-points-downtown.jpg"]
+    }
+  ]
+}
