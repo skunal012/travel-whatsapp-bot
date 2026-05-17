@@ -42,7 +42,7 @@ export interface Message {
 export interface AIRequest {
   systemPrompt: string;
   conversationHistory: Message[];
-  agencyConfig: AgencyConfig;
+  userMessage: string;
 }
 
 export interface AIResponse {
@@ -51,6 +51,32 @@ export interface AIResponse {
   responseText: string;
   action: ActionType;
 }
+
+/**
+ * Zod schema for AI response from Groq/OpenAI
+ * Note: API responses use snake_case, we convert to camelCase in service
+ */
+export const AIGroqResponseSchema = z.object({
+  intent: z.enum([
+    'flight_booking',
+    'hotel_booking',
+    'visa_assistance',
+    'itinerary',
+    'special',
+    'greeting',
+    'handoff_request',
+    'out_of_scope',
+  ]),
+  slots: z.record(z.unknown()).optional().default({}),
+  response_text: z.string().optional(),
+  action: z.enum([
+    'ask_clarification',
+    'show_options',
+    'confirm',
+    'handoff',
+    'greeting',
+  ]),
+});
 
 export const AIResponseSchema = z.object({
   intent: z.enum([
